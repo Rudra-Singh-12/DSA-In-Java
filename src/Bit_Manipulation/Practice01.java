@@ -5,6 +5,7 @@ public class Practice01 {
         System.out.println(powerOfXOfX(4));
         swapWithoutThirdVariable(5,6);
         System.out.println(printAfterAdd1(5));
+        convertToLowercase();
     }
     public static int powerOfXOfX(int x){
         int ans=1;int a=x;
@@ -25,5 +26,10 @@ public class Practice01 {
     }
     public static int printAfterAdd1(int n){
         return (~n+1)^n;
+    }
+    public static void convertToLowercase(){
+        for(char i='A';i<='Z';i++){
+            System.out.println((char) i| ' ');
+        }
     }
 }
